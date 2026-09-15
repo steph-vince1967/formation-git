@@ -2,3 +2,5 @@ Verification:
 Ram: OK
 CPU: OK
 Reseau: OK
+OS: OK
+Controller: OK
