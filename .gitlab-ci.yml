@@ -1,0 +1,13 @@
+default:
+  image: alpine:3.21
+
+stages: [test]
+
+decouverte:
+  stage: test
+  script:
+    - echo "Bonjour depuis GitLab CI"
+    - printf '%s\n' "$CI_PROJECT_PATH"
+    - printf '%s\n' "$CI_COMMIT_SHORT_SHA"
+    - pwd
+    - ls -la

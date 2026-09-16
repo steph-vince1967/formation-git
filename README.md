@@ -1,1 +1,3 @@
-# Site de formation
+# Formation GitLab CI/CD
+
+Projet pedagogique SOLYTI.
